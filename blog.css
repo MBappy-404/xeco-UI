@@ -1,0 +1,64 @@
+.blog {
+     background-color: #010314;
+     margin: 0;
+     padding: 0;
+}
+
+
+/* hero bg  */
+
+.hero-bg {
+
+     background: linear-gradient(to bottom, transparent 25%, #439e8ae0), url('https://xeco.themegenix.net/wp-content/uploads/2023/09/banner_bg.png');
+     background-size: cover;
+
+}
+
+
+
+/* hero image animation  */
+
+.left-hero-bg {
+     animation: smoothScrollL 3s ease-in-out infinite alternate;
+     position: relative;
+     overflow: hidden;
+
+
+}
+
+@keyframes smoothScrollL {
+     0% {
+          margin-left: 0;
+     }
+
+     100% {
+          margin-left: 40px;
+     }
+}
+
+
+.right-hero-bg {
+     animation: right-hero-bg 10s linear infinite;
+     overflow: hidden;
+     
+}
+
+@keyframes right-hero-bg {
+     0% {
+          transform: rotate(0deg);
+
+     }
+
+     100% {
+          transform: rotate(360deg);
+
+     }
+}
+
+
+
+
+
+.map{
+     height: 600px;
+}
